@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.paginate{
+  text-align: center;
+}
+
+.paginate ul{
+  background-color: white !important;
+}
+
+.paginate ul li{
+  display: inline-block;
+  padding:8px;
+  margin:5px;
+ 
+}
+
+.paginate ul li a{
+  padding:5px 15px 5px;
+  background:blue;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  list-style-type: none;
+}
+.textbox {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 16px;
+  width: 200px;
+  box-sizing: border-box;
+}
